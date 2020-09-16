@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30d1d360-64c9-47c8-9170-ada8a42b9f0b" name="Default Changelist" comment="" />
+    <list default="true" id="30d1d360-64c9-47c8-9170-ada8a42b9f0b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/minesweeper-demo/no/kristiania/minesweeper/MineFieldTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/minesweeper-demo/no/kristiania/minesweeper/MineFieldTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/kristiania/minesweeper/MineFieldTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/kristiania/minesweeper/MineFieldTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +34,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MineFieldTest">
     <configuration name="MineFieldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="minesweeper-demo" />
       <extension name="coverage">
@@ -46,9 +50,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MineFieldTest.isShowCorrectNumberOfColumns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="minesweeper-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.kristiania.minesweeper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.kristiania.minesweeper" />
+      <option name="MAIN_CLASS_NAME" value="no.kristiania.minesweeper.MineFieldTest" />
+      <option name="METHOD_NAME" value="isShowCorrectNumberOfColumns" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MineFieldTest" />
+        <item itemvalue="JUnit.MineFieldTest.isShowCorrectNumberOfColumns" />
       </list>
     </recent_temporary>
   </component>
@@ -81,38 +102,45 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1600257684902</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Correct rows green, correct columns red">
+      <created>1600258919442</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1600258919442</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Empty mine field green, correct number of rows red" />
-    <option name="LAST_COMMIT_MESSAGE" value="Empty mine field green, correct number of rows red" />
+    <MESSAGE value="Correct rows green, correct columns red" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correct rows green, correct columns red" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="399" y="8" key="CommitChangelistDialog2" timestamp="1600257683117">
+    <state x="399" y="8" key="CommitChangelistDialog2" timestamp="1600258917630">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="399" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600257683117" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1600258837528">
+    <state x="399" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600258917630" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1600265379616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600258837528" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1600258837528">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600265379616" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1600265379616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600258837528" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1600258837527">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600265379616" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1600265379616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600258837527" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1600258837528">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600265379616" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1600265379616">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600258837528" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1600257854969">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600265379616" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1600258934267">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600257854969" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600258934267" />
     <state x="498" y="307" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600255817057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
