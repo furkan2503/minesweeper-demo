@@ -33,6 +33,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RunManager" selected="JUnit.MineFieldTest">
     <configuration name="MineFieldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -108,42 +109,61 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1600258919442</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Correct cols green, refactor, shows mines red">
+      <created>1600265444432</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1600265444432</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Empty mine field green, correct number of rows red" />
     <MESSAGE value="Correct rows green, correct columns red" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correct rows green, correct columns red" />
+    <MESSAGE value="Correct cols green, refactor, shows mines red" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correct cols green, refactor, shows mines red" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="399" y="8" key="CommitChangelistDialog2" timestamp="1600258917630">
+    <state x="399" y="8" key="CommitChangelistDialog2" timestamp="1600265443737">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="399" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600258917630" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1600265379616">
+    <state x="399" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600265443737" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1600432581959">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600265379616" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1600265379616">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600432581959" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1600432581959">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600265379616" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1600265379616">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600432581959" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1600432581959">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600265379616" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1600265379616">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600432581959" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1600432581959">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600265379616" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1600258934267">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600432581959" />
+    <state x="666" y="483" key="ReplaceDuplicatesPrompt" timestamp="1600432236660">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600258934267" />
+    <state x="666" y="483" key="ReplaceDuplicatesPrompt/0.0.1536.824@0.0.1536.824" timestamp="1600432236660" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1600265452005">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600265452005" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1600432037873">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1600432037873" />
     <state x="498" y="307" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600255817057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="307" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1600255817057" />
+    <state x="499" y="169" width="538" height="495" key="extract.method.dialog" timestamp="1600432181583">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="169" width="538" height="495" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1600432181583" />
   </component>
 </project>
